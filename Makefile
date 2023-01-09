@@ -44,7 +44,7 @@ code-sniff:
 	@docker-compose exec -T php ./app/vendor/bin/phpcs -v --standard=PSR2 app/src
 
 composer-up:
-	@docker run --rm -v $(shell pwd)/web/app:/app composer update -vvv
+	@docker run --rm -v $(shell pwd)/web/app:/app composer update
 
 docker-start: init
 	docker-compose up -d

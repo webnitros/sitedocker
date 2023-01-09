@@ -18,20 +18,19 @@ services:
             - php
             - mysqldb
     php:
+        platform: ${PLATFORM_PHP}
         image: nanoninja/php-fpm:${PHP_VERSION}
         restart: always
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "./web:/var/www/html"
     composer:
-        dns:
-         - 8.8.8.8
-         - 4.4.4.4
         image: "composer"
         volumes:
             - "./web/app:/app"
         command: install
     myadmin:
+        platform: ${PLATFORM_PHP}
         image: phpmyadmin/phpmyadmin
         container_name: phpmyadmin
         ports:
@@ -43,6 +42,7 @@ services:
         depends_on:
             - mysqldb
     mysqldb:
+        platform: ${PLATFORM}
         image: mysql:${MYSQL_VERSION}
         container_name: ${MYSQL_HOST}
         restart: always

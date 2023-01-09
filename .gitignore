@@ -26,3 +26,4 @@ nbproject/
 
 # SSL Certs
 etc/ssl/
+/web/app/public/core/cache/
