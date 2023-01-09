@@ -1,5 +1,4 @@
 <?php
-    phpinfo();
 include '../app/vendor/autoload.php';
 $foo = new App\Acme\Foo();
 
