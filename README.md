@@ -8,7 +8,7 @@ make docker-start
 
 ### База данных
 
-Скачать dump mysql https://disk.yandex.ru/d/DK3BrG3pl4wpOA
+Скачать dump mysql
 *положить дампа в папку **data/db/dumps***
 
 ```bash
