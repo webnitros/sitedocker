@@ -1,3 +1,27 @@
+### Быстрый старт
+
+### Запуск контенеров
+
+```bash
+make docker-start
+```
+
+### База данных
+
+Скачать dump mysql https://disk.yandex.ru/d/DK3BrG3pl4wpOA
+*положить дампа в папку **data/db/dumps***
+
+```bash
+make mysql-restore
+```
+
+## Установка composer 
+
+```bash
+make composer-up
+```
+
+
 # Nginx PHP MySQL [![Build Status](https://travis-ci.org/nanoninja/docker-nginx-php-mysql.svg?branch=master)](https://travis-ci.org/nanoninja/docker-nginx-php-mysql) [![GitHub version](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql.svg)](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql)
 
 Docker running Nginx, PHP-FPM, Composer, MySQL and PHPMyAdmin
