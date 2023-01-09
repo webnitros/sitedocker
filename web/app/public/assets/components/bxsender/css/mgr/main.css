@@ -1,0 +1,338 @@
+.x-window .x-toolbar {
+    background: transparent !important;
+}
+
+.x-grid3-col-image {
+    padding: 2px 0 2px 5px;
+}
+
+.x-grid3-col-actions {
+    padding: 3px 0 3px 5px;
+}
+
+ul.bxsender-row-actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.bxsender-row-actions li {
+    float: left;
+}
+
+ul.bxsender-row-actions .btn {
+    padding: 5px;
+    margin-right: 2px;
+    min-width: 26px;
+    font-size: inherit;
+}
+
+.red {
+    color: darkred;
+}
+
+.green {
+    color: darkgreen;
+}
+
+.blue {
+    color: cadetblue;
+}
+
+.yellow {
+    color: goldenrod;
+}
+
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .fa {
+    cursor: pointer;
+}
+
+a.x-menu-item .x-menu-item-text .fa {
+    line-height: 16px;
+    top: auto;
+}
+
+.x-menu-list .fa {
+    min-width: 1em;
+    text-align: center;
+}
+
+.fa.actions-menu {
+    width: 40px;
+}
+
+.fa.actions-menu:after {
+    content: " \f107";
+}
+
+.tbar-checkbox {
+    text-align: left;
+}
+
+.tbar-checkbox label {
+    padding: 2px 0 0 22px !important;
+}
+
+label[for=subscriber-active] {
+    margin: 0 41px 0 7px !important;
+    padding: 0 0 0 26px !important;
+}
+
+.alert_box_message_title {
+    font-size: 19px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.alert_box_message tr {
+    vertical-align: top;
+}
+
+.alert_box_message td {
+    padding: 5px;
+    border: 1px solid #eee;
+}
+
+.alert_box_message td.__first {
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.bxsender_subscriber_model {
+
+}
+
+.bxsender-row-disabled {
+    font-style: italic;
+    opacity: .6;
+    color: #555;
+}
+
+.bxsender-field-active label:before {
+    top: -5px !important;
+}
+
+.highcharts-legend .chart-selected .bxsender-chart-element-caption {
+    font-weight: bold;
+}
+
+.bxsender-chart-element {
+    font-size: 14px;
+    min-width: 200px;
+    display: block;
+}
+
+.bxsender-chart-element-caption {
+    width: 130px;
+    display: inline-block;
+}
+
+.bxsender-chart-element-count {
+    width: 110px;
+    display: inline-block;
+}
+
+.bxsender-chart-element span {
+    color: #03c;
+    border-bottom: 1px dashed #03c;
+    display: inherit;
+    cursor: pointer;
+}
+
+.bxsender-chart-panel-filter {
+    padding: 10px 20px;
+}
+
+.bxsender-chart-panel-filter .x-form-item {
+    margin: 15px 0;
+}
+
+.bxsender-chart-panel-filter .x-form-item label.x-form-item-label {
+    min-width: 150px;
+}
+
+.bxsender-chart-panel-filter .x-form-element {
+    padding-left: 155px !important;
+}
+
+#bxsender-form-queue .x-panel-btns {
+    position: absolute;
+    margin-top: -65px;
+    right: 15px;
+    width: 250px !important;
+}
+
+#bxsender-form-queue .x-panel-btns .x-btn-text-icon button {
+    padding-left: 0px !important;
+}
+
+#bxsender-queue-total-count {
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+}
+
+.ext-strict .x-menu-item-icon {
+    left: 11px;
+    top: 3px;
+}
+
+.bxsender-subject-field {
+    font-size: 16px;
+    padding: 12px 10px;
+}
+
+.bxsender-mailing-wrap {
+    text-align: center;
+    position: relative;
+}
+
+.modx-browser-thumb {
+    width: 213px;
+    height: 128px;
+    border: 2px solid #ddd;
+    background: #eee;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.bxsender-mailing-wrap .catch-clicks {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bxsender-mailing-wrap iframe {
+    width: 400%;
+    height: 400%;
+    overflow: hidden;
+    overflow-y: hidden;
+    zoom: 0.25;
+    -moz-transform: scale(0.25);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.25);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.25);
+    -webkit-transform-origin: 0 0;
+}
+
+.bxsender_noname {
+    font-size: 11px;
+    color: #8d8d8d;
+    font-style: italic;
+}
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go {
+    border-left: 1px solid #e4e4e4 !important;
+}
+
+.x-field-search-clear:hover,
+.x-field-search-go:hover {
+    border-left-color: transparent !important;
+}
+
+.x-field-search-clear:before {
+    content: '\f00d' !important;
+}
+
+.x-field-search-go {
+    right: 31px !important;
+    border-radius: 0 !important;
+}
+
+.x-field-search-go:before {
+    content: '\f002' !important;
+}
+
+.bxsender_button_tips {
+    padding: 5px 12px;
+}
+
+.bxsender_button_open_message {
+    margin-left: 10px;
+    color: green;
+}
+
+.bxsender_mailing_report.form-with-labels .x-form-item label.x-form-item-label {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    padding: 0;
+}
+
+.bxsender_mailing_report_label {
+    width: 300px;
+    font-weight: bold;
+}
+
+.bxsender_displayfield {
+    padding-top: 4px;
+}
+
+.bxsender_progress_bar {
+
+}
+
+.bxsender_progress_bar_status {
+    padding: 0 0 10px 0;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.bxsender_progress_bar_stat {
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+
+.bxsender_form_settings_input {
+    min-width: 380px;
+    max-width: 380px;
+}
+
+.bxsender_setting_smtp input {
+    max-width: 380px;
+}
+
+.bxsender_buttons_settings .x-panel-fbar{
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+
+.bxsender_btn_connect{
+    position: absolute;
+    margin-left: 590px;
+    top: 0;
+    padding: 5px 10px;
+}
+
+.bxsender_panel_total {
+    font-size: 24px !important;
+}
+
+.bxsender_pre_crontab {
+    width: 600px;
+    overflow: hidden;
+    max-height: 38px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.bxsender_pre_crontab_task {
+    padding: 10px;
+    overflow: auto;
+    word-break: normal !important;
+    word-wrap: normal !important;
+    white-space: pre !important;
+}

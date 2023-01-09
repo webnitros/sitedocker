@@ -1,0 +1,22 @@
+{
+    "name": "fandeco/divinare",
+    "authors": [
+        {
+            "name": "webnitros",
+            "email": "info@bustep.ru"
+        }
+    ],
+    "require": {
+        "symfony/dotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

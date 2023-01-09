@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://landing-divinare.massive.ru/",
+  "fixturesFolder": false,
+  "supportFile": "cypress/support/index.js",
+  "pluginsFile": false,
+  "userAgent": "User-Agent: Mozilla/5.0"
+}

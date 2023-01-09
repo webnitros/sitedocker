@@ -1,0 +1,115 @@
+/* Grid */
+.crossmanagerhybridauth-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.crossmanagerhybridauth-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.crossmanagerhybridauth-row-actions li { float: left; }
+ul.crossmanagerhybridauth-row-actions .crossmanagerhybridauth-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.crossmanagerhybridauth-row-actions .actions-menu { width: 40px; }
+ul.crossmanagerhybridauth-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.crossmanagerhybridauth-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.crossmanagerhybridauth-btn:focus, .crossmanagerhybridauth-btn:active:focus, .crossmanagerhybridauth-btn.active:focus, .crossmanagerhybridauth-btn.focus, .crossmanagerhybridauth-btn:active.focus, .crossmanagerhybridauth-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.crossmanagerhybridauth-btn:hover, .crossmanagerhybridauth-btn:focus, .crossmanagerhybridauth-btn.focus { color: #333; text-decoration: none }
+.crossmanagerhybridauth-btn:active, .crossmanagerhybridauth-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.crossmanagerhybridauth-btn.disabled, .crossmanagerhybridauth-btn[disabled], fieldset[disabled] .crossmanagerhybridauth-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.crossmanagerhybridauth-btn.disabled, fieldset[disabled] a.crossmanagerhybridauth-btn { pointer-events: none }
+.crossmanagerhybridauth-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.crossmanagerhybridauth-btn-default:focus, .crossmanagerhybridauth-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.crossmanagerhybridauth-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.crossmanagerhybridauth-btn-default:active, .crossmanagerhybridauth-btn-default.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.crossmanagerhybridauth-btn-default:active:hover, .crossmanagerhybridauth-btn-default.active:hover, .open > .dropdown-toggle.crossmanagerhybridauth-btn-default:hover, .crossmanagerhybridauth-btn-default:active:focus, .crossmanagerhybridauth-btn-default.active:focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-default:focus, .crossmanagerhybridauth-btn-default:active.focus, .crossmanagerhybridauth-btn-default.active.focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.crossmanagerhybridauth-btn-default:active, .crossmanagerhybridauth-btn-default.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-default { background-image: none }
+.crossmanagerhybridauth-btn-default.disabled:hover, .crossmanagerhybridauth-btn-default[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-default:hover, .crossmanagerhybridauth-btn-default.disabled:focus, .crossmanagerhybridauth-btn-default[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-default:focus, .crossmanagerhybridauth-btn-default.disabled.focus, .crossmanagerhybridauth-btn-default[disabled].focus, fieldset[disabled] .crossmanagerhybridauth-btn-default.focus { background-color: #fff; border-color: #ccc }
+.crossmanagerhybridauth-btn-default .badge { color: #fff; background-color: #333 }
+.crossmanagerhybridauth-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.crossmanagerhybridauth-btn-primary:focus, .crossmanagerhybridauth-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.crossmanagerhybridauth-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.crossmanagerhybridauth-btn-primary:active, .crossmanagerhybridauth-btn-primary.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.crossmanagerhybridauth-btn-primary:active:hover, .crossmanagerhybridauth-btn-primary.active:hover, .open > .dropdown-toggle.crossmanagerhybridauth-btn-primary:hover, .crossmanagerhybridauth-btn-primary:active:focus, .crossmanagerhybridauth-btn-primary.active:focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-primary:focus, .crossmanagerhybridauth-btn-primary:active.focus, .crossmanagerhybridauth-btn-primary.active.focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.crossmanagerhybridauth-btn-primary:active, .crossmanagerhybridauth-btn-primary.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-primary { background-image: none }
+.crossmanagerhybridauth-btn-primary.disabled:hover, .crossmanagerhybridauth-btn-primary[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-primary:hover, .crossmanagerhybridauth-btn-primary.disabled:focus, .crossmanagerhybridauth-btn-primary[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-primary:focus, .crossmanagerhybridauth-btn-primary.disabled.focus, .crossmanagerhybridauth-btn-primary[disabled].focus, fieldset[disabled] .crossmanagerhybridauth-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.crossmanagerhybridauth-btn-primary .badge { color: #337ab7; background-color: #fff }
+.crossmanagerhybridauth-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.crossmanagerhybridauth-btn-success:focus, .crossmanagerhybridauth-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.crossmanagerhybridauth-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.crossmanagerhybridauth-btn-success:active, .crossmanagerhybridauth-btn-success.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.crossmanagerhybridauth-btn-success:active:hover, .crossmanagerhybridauth-btn-success.active:hover, .open > .dropdown-toggle.crossmanagerhybridauth-btn-success:hover, .crossmanagerhybridauth-btn-success:active:focus, .crossmanagerhybridauth-btn-success.active:focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-success:focus, .crossmanagerhybridauth-btn-success:active.focus, .crossmanagerhybridauth-btn-success.active.focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.crossmanagerhybridauth-btn-success:active, .crossmanagerhybridauth-btn-success.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-success { background-image: none }
+.crossmanagerhybridauth-btn-success.disabled:hover, .crossmanagerhybridauth-btn-success[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-success:hover, .crossmanagerhybridauth-btn-success.disabled:focus, .crossmanagerhybridauth-btn-success[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-success:focus, .crossmanagerhybridauth-btn-success.disabled.focus, .crossmanagerhybridauth-btn-success[disabled].focus, fieldset[disabled] .crossmanagerhybridauth-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.crossmanagerhybridauth-btn-success .badge { color: #5cb85c; background-color: #fff }
+.crossmanagerhybridauth-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.crossmanagerhybridauth-btn-info:focus, .crossmanagerhybridauth-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.crossmanagerhybridauth-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.crossmanagerhybridauth-btn-info:active, .crossmanagerhybridauth-btn-info.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.crossmanagerhybridauth-btn-info:active:hover, .crossmanagerhybridauth-btn-info.active:hover, .open > .dropdown-toggle.crossmanagerhybridauth-btn-info:hover, .crossmanagerhybridauth-btn-info:active:focus, .crossmanagerhybridauth-btn-info.active:focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-info:focus, .crossmanagerhybridauth-btn-info:active.focus, .crossmanagerhybridauth-btn-info.active.focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.crossmanagerhybridauth-btn-info:active, .crossmanagerhybridauth-btn-info.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-info { background-image: none }
+.crossmanagerhybridauth-btn-info.disabled:hover, .crossmanagerhybridauth-btn-info[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-info:hover, .crossmanagerhybridauth-btn-info.disabled:focus, .crossmanagerhybridauth-btn-info[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-info:focus, .crossmanagerhybridauth-btn-info.disabled.focus, .crossmanagerhybridauth-btn-info[disabled].focus, fieldset[disabled] .crossmanagerhybridauth-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.crossmanagerhybridauth-btn-info .badge { color: #5bc0de; background-color: #fff }
+.crossmanagerhybridauth-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.crossmanagerhybridauth-btn-warning:focus, .crossmanagerhybridauth-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.crossmanagerhybridauth-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.crossmanagerhybridauth-btn-warning:active, .crossmanagerhybridauth-btn-warning.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.crossmanagerhybridauth-btn-warning:active:hover, .crossmanagerhybridauth-btn-warning.active:hover, .open > .dropdown-toggle.crossmanagerhybridauth-btn-warning:hover, .crossmanagerhybridauth-btn-warning:active:focus, .crossmanagerhybridauth-btn-warning.active:focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-warning:focus, .crossmanagerhybridauth-btn-warning:active.focus, .crossmanagerhybridauth-btn-warning.active.focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.crossmanagerhybridauth-btn-warning:active, .crossmanagerhybridauth-btn-warning.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-warning { background-image: none }
+.crossmanagerhybridauth-btn-warning.disabled:hover, .crossmanagerhybridauth-btn-warning[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-warning:hover, .crossmanagerhybridauth-btn-warning.disabled:focus, .crossmanagerhybridauth-btn-warning[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-warning:focus, .crossmanagerhybridauth-btn-warning.disabled.focus, .crossmanagerhybridauth-btn-warning[disabled].focus, fieldset[disabled] .crossmanagerhybridauth-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.crossmanagerhybridauth-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.crossmanagerhybridauth-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.crossmanagerhybridauth-btn-danger:focus, .crossmanagerhybridauth-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.crossmanagerhybridauth-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.crossmanagerhybridauth-btn-danger:active, .crossmanagerhybridauth-btn-danger.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.crossmanagerhybridauth-btn-danger:active:hover, .crossmanagerhybridauth-btn-danger.active:hover, .open > .dropdown-toggle.crossmanagerhybridauth-btn-danger:hover, .crossmanagerhybridauth-btn-danger:active:focus, .crossmanagerhybridauth-btn-danger.active:focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-danger:focus, .crossmanagerhybridauth-btn-danger:active.focus, .crossmanagerhybridauth-btn-danger.active.focus, .open > .dropdown-toggle.crossmanagerhybridauth-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.crossmanagerhybridauth-btn-danger:active, .crossmanagerhybridauth-btn-danger.active, .open > .dropdown-toggle.crossmanagerhybridauth-btn-danger { background-image: none }
+.crossmanagerhybridauth-btn-danger.disabled:hover, .crossmanagerhybridauth-btn-danger[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-danger:hover, .crossmanagerhybridauth-btn-danger.disabled:focus, .crossmanagerhybridauth-btn-danger[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-danger:focus, .crossmanagerhybridauth-btn-danger.disabled.focus, .crossmanagerhybridauth-btn-danger[disabled].focus, fieldset[disabled] .crossmanagerhybridauth-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.crossmanagerhybridauth-btn-danger .badge { color: #d9534f; background-color: #fff }
+.crossmanagerhybridauth-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.crossmanagerhybridauth-btn-link, .crossmanagerhybridauth-btn-link:active, .crossmanagerhybridauth-btn-link.active, .crossmanagerhybridauth-btn-link[disabled], fieldset[disabled] .crossmanagerhybridauth-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.crossmanagerhybridauth-btn-link, .crossmanagerhybridauth-btn-link:hover, .crossmanagerhybridauth-btn-link:focus, .crossmanagerhybridauth-btn-link:active { border-color: transparent }
+.crossmanagerhybridauth-btn-link:hover, .crossmanagerhybridauth-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.crossmanagerhybridauth-btn-link[disabled]:hover, fieldset[disabled] .crossmanagerhybridauth-btn-link:hover, .crossmanagerhybridauth-btn-link[disabled]:focus, fieldset[disabled] .crossmanagerhybridauth-btn-link:focus { color: #777; text-decoration: none }
+.crossmanagerhybridauth-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.crossmanagerhybridauth-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.crossmanagerhybridauth-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.crossmanagerhybridauth-btn-block { display: block; width: 100% }
+.crossmanagerhybridauth-btn-block + .crossmanagerhybridauth-btn-block { margin-top: 5px }
+
+/* resourcer field */
+.x-field-crossmanagerhybridauth-resource-clear,
+.x-field-crossmanagerhybridauth-resource-go {border-left: 1px solid #e4e4e4 !important;}
+.x-field-crossmanagerhybridauth-resource-clear:hover,
+.x-field-crossmanagerhybridauth-resource-go:hover {border-left-color: transparent !important;}
+.x-field-crossmanagerhybridauth-resource-clear:before {content: '\f00d' !important;}
+.x-field-crossmanagerhybridauth-resource-go {right: 31px !important; border-radius: 0 !important;}
+.x-field-crossmanagerhybridauth-resource-go:before {content: '\f15b' !important;}
+
+
+/* crossmanagerhybridauth-active field */
+.x-field-crossmanagerhybridauth-active-clear,
+.x-field-crossmanagerhybridauth-active-go {border-left: 1px solid #e4e4e4 !important;}
+.x-field-crossmanagerhybridauth-active-clear:hover,
+.x-field-crossmanagerhybridauth-active-go:hover {border-left-color: transparent !important;}
+.x-field-crossmanagerhybridauth-active-clear:before {content: '\f00d' !important;}
+.x-field-crossmanagerhybridauth-active-go {right: 31px !important; border-radius: 0 !important;}
+.x-field-crossmanagerhybridauth-active-go:before {content: '\f204' !important;}

@@ -1,0 +1,23 @@
+{
+  "name": "fandeco.ru",
+  "version": "1.0.0",
+  "description": "shop fandeco modx",
+  "author": "Andrey Stepanenko",
+  "scripts": {
+    "git": "cd src/ && git pull",
+    "build": "cd src/ && set PRODUCT_PATH=./../public/assets/dest/&& npm run build"
+  },
+  "devDependencies": {
+    "cypress": "6.8.0"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fandeco/fandeco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fandeco/fandeco/issues"
+  }
+}

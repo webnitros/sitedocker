@@ -1,0 +1,11 @@
+{
+    "require": {
+        "crazy-max/cws-mail-bounce-handler": "^1.14",
+        "nesbot/carbon": "^1.37",
+        "parsecsv/php-parsecsv": "^1.1",
+        "jenner/simple_fork": "^1.2",
+        "soundasleep/html2text": "^1.1",
+        "pelago/emogrifier": "^2.1",
+        "tburry/pquery": "^1.1"
+    }
+}
