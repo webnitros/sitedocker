@@ -47,7 +47,7 @@ composer-up:
 	@docker run --rm -v $(shell pwd)/web/app:/app composer update -vvv
 
 docker-start: init
-	docker-compose up -d
+	docker-compose up -d --network host
 
 docker-stop:
 	@docker-compose down -v
