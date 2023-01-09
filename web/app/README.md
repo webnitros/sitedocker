@@ -9,6 +9,3 @@
  - Запустить `setup.sh`
 
 Manager access - `Admin`:`Admin123`
-
-### Changes:
- - add new path constant `MODX_VENDOR_PATH`,`MODX_SRC_PATH`
