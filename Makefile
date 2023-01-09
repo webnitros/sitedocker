@@ -47,7 +47,7 @@ composer-up:
 	@docker run --rm -v $(shell pwd)/web/app:/app composer update -vvv
 
 docker-start: init
-	docker-compose up -d --network host
+	docker-compose up -d --dns 10.0.3.2
 
 docker-stop:
 	@docker-compose down -v
